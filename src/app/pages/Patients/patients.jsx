@@ -100,11 +100,11 @@ const Patients = () => {
                 </div>
 
                 <table className='w-[100%] my-[20px] rounded'>
-                    <thead style={{ fontFamily: "Gilroy-Ligght", fontSize: "9px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
-                        <tr className=''>
-                            <th className='py-[10px] px-[px] rounded-l-[8px]'>№</th>
+                    <thead style={{ fontFamily: "Gilroy-Ligght", fontSize: "8px" }} className='bg-[#F5F7FA]  text-gray-500    rounded-[8px]'>
+                        <tr className='text-left'>
+                            <th className='py-[10px] px-[10px] rounded-l-[8px]'>№</th>
                             <th className='px-[5px]'>Клиент</th>
-                            <th className='px-[5px]'>Сумма</th>
+                            <th className='px-[8px]'>Сумма</th>
                             <th className='px-[5px] whitespace-nowrap'>Кол-во</th>
                             <th className='px-[5px] '>Баллы</th>
                             <th className='px-[5px] '>Отсутствие</th>
@@ -114,7 +114,7 @@ const Patients = () => {
                     <tbody style={{ fontFamily: "Gilroy-Ligght", fontSize: "9px" }} className='text-[13px] font-medium'>
                         <tr className='bg-white p-[20px]'> <td className='p-[5px]'></td></tr>
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
-                            <td className='p-[10px] py-[015px] rounded-l-[10px] text-[#231F20]'>1209</td>
+                            <td className='p-[5px] py-[15px] rounded-l-[10px] text-[#231F20]'>1209</td>
                             <td className='text-[#231F20] whitespace-nowrap'>Фирдавс Намозов</td>
                             <td className='text-center  text-[#0E9F6E]'>25000 c.</td>
                             <td className='text-center'>83</td>

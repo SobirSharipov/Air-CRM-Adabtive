@@ -66,15 +66,15 @@ const Home = () => {
       </div>
 
       <div className='my-[20px]'>
-        <div className='flex justify-between items-center my-[20px]'>
+        <div className='flex justify-between items-center my-[20px] mx-[10px]'>
           <p style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "16px" }}>Обучение</p>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
           </svg>
         </div>
 
-        <div className='flex flex-wrap gap-[12px]'>
-          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-[48%]'>
+        <div className='grid grid-cols-2 gap-[12px]'>
+          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full'>
             <div className='flex justify-between'>
             <button className='bg-white text-black p-[10px] rounded-[10px]'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -89,7 +89,7 @@ const Home = () => {
             </div>
             <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[13px] my-[10px]'>1. Работа со складом</p>
           </div>
-          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-[48%]'>
+          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full'>
             <div className='flex justify-between'>
             <button className='bg-white text-black p-[10px] rounded-[10px]'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -104,7 +104,7 @@ const Home = () => {
             </div>
             <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[13px] my-[10px]'>2. Работа с финансами</p>
           </div>
-          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-[48%]'>
+          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full'>
             <div className='flex justify-between'>
             <button className='bg-white text-black p-[10px] rounded-[10px]'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -119,7 +119,7 @@ const Home = () => {
             </div>
             <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[13px] my-[10px]'>3. Работа с курьерами</p>
           </div>
-          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-[48%]'>
+          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full'>
             <div className='flex justify-between'>
             <button className='bg-white text-black p-[10px] rounded-[10px]'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -134,7 +134,8 @@ const Home = () => {
             </div>
             <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[13px] my-[10px]'>4. Работа с клиентами</p>
           </div>
-          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full'>
+        </div>
+          <div className='bg-[#005456] text-white p-[20px] rounded-[10px] w-full mt-[15px]'>
             <div className='flex justify-between'>
             <button className='bg-white text-black p-[10px] rounded-[10px]'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -149,13 +150,12 @@ const Home = () => {
             </div>
             <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[13px] my-[10px]'>5. Работа и управление заказами</p>
           </div>
-        </div>
 
       </div>
 
       <div>
         <div className='bg-white p-[20px] rounded-[14px]'>
-          <p style={{ fontFamily: "Gilroy-ExtraBold",fontSize:"16px" }} >Полезно</p>
+          <p style={{ fontFamily: "Gilroy-ExtraBold",fontSize:"16px" }} className='ml-[20px]' >Полезно</p>
           <AccordionTransition/>
         </div>
       </div>

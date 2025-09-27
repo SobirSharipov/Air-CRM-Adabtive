@@ -61,8 +61,8 @@ const Order = () => {
                         <tr className='bg-white p-[20px]'> <td className='p-[5px]'></td></tr>
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[015px] rounded-l-[10px]'>Шабнам</td>
-                            <td className='text-center  text-[#0E9F6E]'>25000 c.</td>
-                            <td className='text-center  text-[#F05252]'>25000 c.</td>
+                            <td className='text-center whitespace-nowrap  text-[#0E9F6E]'>25000 c.</td>
+                            <td className='text-center whitespace-nowrap  text-[#F05252]'>25000 c.</td>
                             <td className='px-[5px]'>
                                 <select style={{ fontFamily: "Gilroy-Ligght", fontSize: "10px" }} className='bg-[#3F83F8] text-white p-[6px] rounded-[5px]'>
                                     <option value="На доставке">На доставке</option>
