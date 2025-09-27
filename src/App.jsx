@@ -8,7 +8,7 @@ import Patients from './app/pages/Patients/patients'
 import Customer_card from './app/pages/Customer card/customer_card'
 import Implementation from './app/pages/Implementation/implementation'
 import Finance from './app/pages/Finance/finance'
-import Basic from './app/pages/Basic Finance/Basic'
+import Basic from './app/pages/Basic Finance/basic'
 import Analytics from './app/pages/Analytics/analytics'
 
 const App = () => {
