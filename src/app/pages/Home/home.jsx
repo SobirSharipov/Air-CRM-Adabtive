@@ -155,7 +155,7 @@ const Home = () => {
 
       <div>
         <div className='bg-white p-[20px] rounded-[14px]'>
-          <p style={{ fontFamily: "Gilroy-ExtraBold",fontSize:"16px" }} className='ml-[20px]' >Полезно</p>
+          <p style={{ fontFamily: "Gilroy-ExtraBold",fontSize:"16px" }} className='ml-[10px]' >Полезно</p>
           <AccordionTransition/>
         </div>
       </div>
