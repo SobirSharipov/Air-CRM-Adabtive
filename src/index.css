@@ -2,9 +2,7 @@
 
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url('./shared') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('./shared/fonts/Gilroy-Light.otf') format('opentype');
 }
 
 @font-face {
