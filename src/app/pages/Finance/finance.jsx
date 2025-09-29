@@ -14,7 +14,10 @@ const Finance = () => {
             </div>
 
             <div className='bg-white p-[10px] rounded-[20px] my-[15px]'>
-                <div className='flex justify-end'>
+                <div className='flex justify-between m-[10px]'>
+                    <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }}>
+                        Основные финансовые показатели
+                    </p>
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -22,9 +25,6 @@ const Finance = () => {
                     </button>
                 </div>
                 <div>
-                    <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }}>
-                        Основные финансовые показатели
-                    </p>
                     <div className="grid grid-cols-2 gap-2 my-[20px]">
                         <div className="bg-[#F5F7FA] flex gap-[5px] items-center py-[10px] px-3 justify-between rounded-[40px]">
                             <p
@@ -99,7 +99,7 @@ const Finance = () => {
                         </svg>
                     </button>
                 </div>
-                <div className='flex gap-4 my-[20px]'>
+                <div className='flex gap-2 my-[20px]'>
                     <div className='w-[50%]'>
                         <TextField
                             select
@@ -107,7 +107,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -122,7 +122,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -131,7 +131,7 @@ const Finance = () => {
                         </TextField>
                     </div>
                 </div>
-                <div className='flex gap-4 my-[20px]'>
+                <div className='flex gap-2 my-[20px]'>
                     <div className='w-[50%]'>
                         <TextField
                             select
@@ -139,7 +139,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -154,7 +154,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -163,8 +163,8 @@ const Finance = () => {
                         </TextField>
                     </div>
                 </div>
-                <div className='flex gap-4 my-[20px]'>
-                    <div className='w-[40%]'>
+                <div className='flex gap-2 my-[20px]'>
+                    <div className='w-[45%]'>
                         <TextField
                             label="Цена"
                             variant="outlined"
@@ -172,13 +172,13 @@ const Finance = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
-                    <div className='w-[60%]'>
+                    <div className='w-[55%]'>
                         <TextField
                             label="Комментарий"
                             variant="outlined"
@@ -186,7 +186,7 @@ const Finance = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "50px", height: "40px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -220,7 +220,7 @@ const Finance = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
-                    <input type="text" placeholder='Поиск' className='border-none outline-none p-[8px] rounded-lg w-full' />
+                    <input type="text" placeholder='Поиск' className='border-none outline-none p-[5px] rounded-lg w-full' />
                 </div>
 
                 <table className='w-[100%] my-[20px] rounded'>
