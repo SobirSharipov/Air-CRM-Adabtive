@@ -334,8 +334,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
@@ -349,8 +349,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
@@ -364,8 +364,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
@@ -379,8 +379,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
@@ -394,8 +394,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
@@ -409,8 +409,8 @@ const Customer_card = () => {
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
                             <td className='text-[#231F20]'>11.08.2025</td>
-                            <td className='  text-[#0E9F6E]'>500 с.</td>
-                            <td className=''>1</td>
+                            <td className='text-center  text-[#0E9F6E]'>500 с.</td>
+                            <td className='text-center'>1</td>
 
                             <td className='  rounded-r-[10px] '>
                                 <button className='text-[#005456] bg-white p-[6px] rounded-[5px]'>
