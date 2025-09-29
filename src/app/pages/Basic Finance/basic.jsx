@@ -99,8 +99,8 @@ const Basic = () => {
                 </div>
                 <div className='bg-white p-[10px] w-[32%] rounded-[20px]'>
                     <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }}>Доходность</p>
-                    <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "8px" }} className='bg-[#F5F7FA] w-full px-[10px] py-[5px] flex justify-between rounded-2xl mt-[13px]'>Ноябрь <span className='text-[#FF8736]'>4000 <p style={{ fontFamily: "Montserrat-Regular", fontSize: "5px" }}>19,69%</p></span></button>
-                    <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "8px" }} className='bg-[#F5F7FA] w-full px-[10px] py-[5px] flex justify-between rounded-2xl mt-[13px]'>Ноябрь <span className='text-[#FF8736]'>4000 <p style={{ fontFamily: "Montserrat-Regular", fontSize: "5px" }}>19,69%</p></span></button>
+                    <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "8px" }} className='bg-[#F5F7FA] w-full px-[10px] py-[5px] flex justify-between items-center rounded-2xl mt-[13px]'>Ноябрь <span className='text-[#FF8736]'>4000 <p style={{ fontFamily: "Montserrat-Regular", fontSize: "5px" }}>19,69%</p></span></button>
+                    <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "8px" }} className='bg-[#F5F7FA] w-full px-[10px] py-[5px] flex justify-between items-center rounded-2xl mt-[13px]'>Ноябрь <span className='text-[#FF8736]'>4000 <p style={{ fontFamily: "Montserrat-Regular", fontSize: "5px" }}>19,69%</p></span></button>
                 </div>
             </div>
 

@@ -47,38 +47,38 @@ const Analytics = () => {
 
             <div className='bg-white p-[10px] rounded-[20px] my-[20px]'>
                 <div className='grid grid-cols-3 gap-[5px]'>
-                    <div className="bg-[#F5F7FA] flex gap-[5px] items-center py-[5px] px-3 justify-between rounded-[40px]">
+                    <div className="bg-[#F5F7FA] flex gap-1 items-center py-[5px] px-2 justify-between rounded-[40px]">
                         <p
                             style={{ fontFamily: "Montserrat-SemiBold" }}
                             className="text-[9px] whitespace-nowrap"
                         >Всего</p>
                         <button
                             style={{ fontFamily: "Inter-SemiBold" }}
-                            className="text-[10px] bg-white px-[12px] py-[6px] rounded-[20px] whitespace-nowrap"
+                            className="text-[10px] bg-white px-[8px] py-[6px] rounded-[20px] whitespace-nowrap"
                         >
                             252300 с
                         </button>
                     </div>
-                    <div className="bg-[#F5F7FA] flex gap-[5px] items-center py-[5px] px-3 justify-between rounded-[40px]">
+                    <div className="bg-[#F5F7FA] flex gap-1 items-center py-[5px] px-2 justify-between rounded-[40px]">
                         <p
                             style={{ fontFamily: "Montserrat-SemiBold" }}
                             className="text-[9px] whitespace-nowrap"
                         >месяц</p>
                         <button
                             style={{ fontFamily: "Inter-SemiBold" }}
-                            className="text-[10px] bg-white px-[12px] py-[6px] rounded-[20px] whitespace-nowrap"
+                            className="text-[10px] bg-white px-[8px] py-[6px] rounded-[20px] whitespace-nowrap"
                         >
                             25250 с
                         </button>
                     </div>
-                    <div className="bg-[#F5F7FA] flex gap-[5px] items-center py-[5px] px-3 justify-between rounded-[40px]">
+                    <div className="bg-[#F5F7FA] flex gap-1 items-center py-[5px] px-2 justify-between rounded-[40px]">
                         <p
                             style={{ fontFamily: "Montserrat-SemiBold" }}
                             className="text-[9px] whitespace-nowrap"
                         >сегодня</p>
                         <button
                             style={{ fontFamily: "Inter-SemiBold" }}
-                            className="text-[10px] bg-white px-[12px] py-[6px] rounded-[20px] whitespace-nowrap"
+                            className="text-[10px] bg-white px-[8px] py-[6px] rounded-[20px] whitespace-nowrap"
                         >
                             2525 с
                         </button>

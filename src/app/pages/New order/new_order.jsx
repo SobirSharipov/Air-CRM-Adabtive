@@ -3,8 +3,17 @@ import TextField from '@mui/material/TextField'
 import img from '../../../shared/img1 (9).svg'
 import Stack from '@mui/material/Stack'
 import Pagination from '@mui/material/Pagination'
+import { useState } from 'react'
 
 const New_order = () => {
+    const [count, setCount] = useState(1)
+    const Price = 2045;
+
+    const increment = () => setCount(count + 1)
+    const decrement = () => {
+        if (count > 1) setCount(count - 1)
+    }
+    const totalPrice = Price * count;
     return (
         <div>
             <div className='flex Light justify-between items-center'>
@@ -136,16 +145,16 @@ const New_order = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                             </svg>
                         </div>
-                        <p style={{ fontFamily: "Montserrat-Regular", fontSize: "10px" }} className='text-[#5E5F62] my-[10px] flex gap-5 items-center'>Цена <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }} className='text-black'>2045</span> <span>сомони</span></p>
+                        <p style={{ fontFamily: "Montserrat-Regular", fontSize: "10px" }} className='text-[#5E5F62] my-[10px] flex gap-5 items-center'>Цена <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }} className='text-black'>  {totalPrice}</span> <span>сомони</span></p>
                         <p style={{ fontFamily: "Montserrat-Regular", fontSize: "10px" }} className='text-[#5E5F62] my-[10px] flex gap-3 items-center'>Скидка <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }} className='text-black border px-[8px] py-[2px] rounded-[5px] border-[#5E5F62]'>45</span> <span style={{ fontFamily: "Montserrat-Bold", fontSize: "10px" }} className='text-[#005456]'>сомони</span> <span>| %</span></p>
                         <div className='flex  gap-4 items-center'>
                             <p style={{ fontFamily: "Montserrat-Regular", fontSize: "10px" }} className='text-[#5E5F62]'>Атрибут</p>
                             <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12px" }} className=''>42</p>
                             <p style={{ fontFamily: "Montserrat-Regular", fontSize: "10px" }} className='text-[#5E5F62]'>размер</p>
                             <div className='flex gap-2 border border-[#005456] rounded-[5px] '>
-                                <button className='px-[10px] border-r border-r-[#005456] bg-[#F5F7FA] rounded-l-[6px] w-full'>-</button>
-                                <p>1</p>
-                                <button className='px-[10px] border-l border-l-[#005456] bg-[#F5F7FA] rounded-r-[5px] w-full'>+</button>
+                                <button onClick={decrement} className='px-[7px] border-r border-r-[#005456] bg-[#F5F7FA] rounded-l-[6px] w-full'>-</button>
+                                <p>{count}</p>
+                                <button onClick={increment} className='px-[7px] border-l border-l-[#005456] bg-[#F5F7FA] rounded-r-[5px] w-full'>+</button>
                             </div>
                         </div>
                     </div>
