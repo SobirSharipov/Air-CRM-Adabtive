@@ -10,7 +10,7 @@ const Finance = () => {
         <div>
             <div className='flex justify-between items-center mb-[20px]'>
                 <p style={{ fontFamily: "Montserrat-Bold" }} className='text-[#0D1B34] text-[24px]'>Общая информация</p>
-               <Usermodal/>
+                <Usermodal />
             </div>
 
             <div className='bg-white p-[10px] rounded-[20px] my-[15px]'>
@@ -107,9 +107,9 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px",fontFamily:"Montserrat-Medium",fontSize:"11px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         >
                             <MenuItem value="standard">Расход</MenuItem>
@@ -122,9 +122,9 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px",fontFamily:"Montserrat-Medium",fontSize:"11px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         >
                             <MenuItem value="standard">Выбрать</MenuItem>
@@ -139,9 +139,9 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         >
                             <MenuItem value="standard">Выбрать</MenuItem>
@@ -154,9 +154,9 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         >
                             <MenuItem value="standard">Выбрать</MenuItem>
@@ -172,9 +172,9 @@ const Finance = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
@@ -186,9 +186,9 @@ const Finance = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "13px", padding: "8px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Montserrat-Medium", fontSize: "11px" },
+                                "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
+                                "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
