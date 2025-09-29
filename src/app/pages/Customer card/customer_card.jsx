@@ -91,9 +91,9 @@ const Customer_card = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                     </svg>
                 </div>
-                <div className='flex gap-2 items-center my-[20px]'>
-                    <div className='text-center border p-[20px] w-[30%] rounded-2xl border-gray-600 bg-[#F5F7FA]'>
-                        <p>Загрузить фото 1:1</p>
+                <div className='flex gap-2 items-start my-[20px]'>
+                    <div className='text-center border p-[20px] w-[30%] rounded-[7.89px] border-gray-600 bg-[#F5F7FA]'>
+                        <p style={{fontFamily:"Gilroy-Light",fontSize:"10.26px"}}>Загрузить фото 1:1</p>
                         <label className="cursor-pointer flex justify-center">
                             <input type="file" className="hidden" />
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -109,13 +109,13 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
                         />
-                        <div className='flex gap-2 mt-[20px]'>
-                            <div className='w-[80%]'>
+                        <div className='flex gap-2 mt-4'>
+                            <div className='w-[77%]'>
                                 <TextField
                                     label="Номер телефона клиента"
                                     variant="outlined"
@@ -123,13 +123,13 @@ const Customer_card = () => {
                                     type="text"
                                     fullWidth
                                     sx={{
-                                        "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                        "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                         "& .MuiInputLabel-root": { fontSize: "15px" },
                                         "& input": { fontSize: "13px", padding: "8px" },
                                     }}
                                 />
                             </div>
-                            <div className='w-[20%]' >
+                            <div className='w-[23%]' >
                                 <TextField
                                     label="ID пациента"
                                     variant="outlined"
@@ -137,7 +137,7 @@ const Customer_card = () => {
                                     type="text"
                                     fullWidth
                                     sx={{
-                                        "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                        "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                         "& .MuiInputLabel-root": { fontSize: "15px" },
                                         "& input": { fontSize: "13px", padding: "8px" },
                                     }}
@@ -147,7 +147,7 @@ const Customer_card = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-2 mt-4'>
+                <div className='flex gap-2 mt-3'>
                     <div className='w-[40%]'>
                         <TextField
                             label="Дата рождения"
@@ -156,7 +156,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -170,7 +170,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -184,14 +184,14 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
                 </div>
-                <div className='flex gap-2 mt-4'>
+                <div className='flex gap-2 mt-3'>
                     <div className='w-[40%]'>
                         <TextField
                             label="Кол-во обращ..."
@@ -200,7 +200,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -214,7 +214,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -228,14 +228,14 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
                 </div>
-                <div className='flex gap-2 mt-4'>
+                <div className='flex gap-2 mt-3'>
                     <div className='w-[40%]'>
                         <TextField
                             label="Источник"
@@ -244,7 +244,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -258,7 +258,7 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -272,14 +272,14 @@ const Customer_card = () => {
                             type="text"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "40px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
                         />
                     </div>
                 </div>
-                <div className=' mt-4'>
+                <div className=' mt-3'>
                     <TextField
                         label="Заметки"
                         variant="outlined"
