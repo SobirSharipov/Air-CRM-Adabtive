@@ -107,7 +107,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px",fontFamily:"Montserrat-Medium",fontSize:"11px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
@@ -122,7 +122,7 @@ const Finance = () => {
                             defaultValue="standard"
                             fullWidth
                             sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "30px",fontFamily:"Montserrat-Medium",fontSize:"9px" },
+                                "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px",fontFamily:"Montserrat-Medium",fontSize:"11px" },
                                 "& .MuiInputLabel-root": { fontSize: "15px" },
                                 "& input": { fontSize: "13px", padding: "8px" },
                             }}
