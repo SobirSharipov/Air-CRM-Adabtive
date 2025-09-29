@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Gilroy-Ligght';
+  font-family: 'Gilroy-Light';
   src: url('./shared') format('truetype');
   font-weight: normal;
   font-style: normal;

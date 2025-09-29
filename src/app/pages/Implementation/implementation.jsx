@@ -90,8 +90,8 @@ const Implementation = () => {
         <div className='flex gap-4 items-center my-4'>
           <img src={img} alt="" />
           <div>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "15px" }}>Мухамад Джаборов</p>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "13px", color: "#5E5F62" }}>+992 902 99 99 99</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "15px" }}>Мухамад Джаборов</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "13px", color: "#5E5F62" }}>+992 902 99 99 99</p>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ const Implementation = () => {
         </div>
 
         <table className='w-[100%] my-[20px] rounded'>
-          <thead style={{ fontFamily: "Gilroy-Ligght", fontSize: "13px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
+          <thead style={{ fontFamily: "Gilroy-Light", fontSize: "13px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
             <tr className='text-left'>
               <th className='py-[10px] px-[5px] rounded-l-[8px]'>№</th>
               <th className='px-[5px]'>Товар</th>
@@ -113,7 +113,7 @@ const Implementation = () => {
               <th className='px-[5px]  rounded-r-[8px]'>Детали</th>
             </tr>
           </thead>
-          <tbody style={{ fontFamily: "Gilroy-Ligght", fontSize: "13px" }} className='text-[13px] font-medium'>
+          <tbody style={{ fontFamily: "Gilroy-Light", fontSize: "13px" }} className='text-[13px] font-medium'>
             <tr className='bg-white p-[20px]'> <td className='p-[5px]'></td></tr>
             <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
               <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>1</td>

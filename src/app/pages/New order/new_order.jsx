@@ -7,9 +7,9 @@ import Pagination from '@mui/material/Pagination'
 const New_order = () => {
     return (
         <div>
-            <div className='flex justify-between items-center'>
+            <div className='flex Light justify-between items-center'>
                 <div>
-                    <p style={{ fontFamily: "Gilroy-Ligght" }} className='text-[#8696BB] text-[16px]'>Добро пожаловать,</p>
+                    <p style={{ fontFamily: "Gilroy-Light" }} className='text-[#8696BB] text-[16px]'>Добро пожаловать,</p>
                     <p style={{ fontFamily: "Gilroy-ExtraBold" }} className='text-[#0D1B34] text-[20px]'>Фирдавс Намозов</p>
                 </div>
                 <div className='flex items-center gap-[10px]'>
@@ -27,11 +27,11 @@ const New_order = () => {
             </div>
 
             <div className='my-[20px]'>
-                <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "19px" }} className='mb-[20px]'>Новый заказ</p>
+                <p style={{ fontFamily: "Gilroy-Light", fontSize: "19px" }} className='mb-[20px]'>Новый заказ</p>
                 <div className='bg-white p-[10px] rounded-[10px]'>
                     <div className='flex justify-between items-center'>
                         <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "14" }}>Заполните информацию</p>
-                        <button style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>Очистить</button>
+                        <button style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>Очистить</button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                         </svg>
@@ -85,28 +85,28 @@ const New_order = () => {
                     <div className='bg-[#F5F7FA] p-[20px] rounded-[10px]'>
                         <img src={img} alt="" />
                         <p style={{ fontFamily: "Montserrat-Regular", fontSize: "12.23px" }}>Кроссовки <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12.23px" }}>Nike</span></p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
                         <p style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px", color: "#5E5F62" }} className='flex justify-between my-[5px]'>Цена: <span>2045с</span></p>
                         <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "10.35px" }} className='bg-[#005456] text-white w-full p-[10px] rounded-[4.7px] '>В корзину</button>
                     </div>
                     <div className='bg-[#F5F7FA] p-[20px] rounded-[10px]'>
                         <img src={img} alt="" />
                         <p style={{ fontFamily: "Montserrat-Regular", fontSize: "12.23px" }}>Кроссовки <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12.23px" }}>Nike</span></p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
                         <p style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px", color: "#5E5F62" }} className='flex justify-between my-[5px]'>Цена: <span>2045с</span></p>
                         <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "10.35px" }} className='bg-[#005456] text-white w-full p-[10px] rounded-[4.7px] '>В корзину</button>
                     </div>
                     <div className='bg-[#F5F7FA] p-[20px] rounded-[10px]'>
                         <img src={img} alt="" />
                         <p style={{ fontFamily: "Montserrat-Regular", fontSize: "12.23px" }}>Кроссовки <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12.23px" }}>Nike</span></p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
                         <p style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px", color: "#5E5F62" }} className='flex justify-between my-[5px]'>Цена: <span>2045с</span></p>
                         <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "10.35px" }} className='bg-[#005456] text-white w-full p-[10px] rounded-[4.7px] '>В корзину</button>
                     </div>
                     <div className='bg-[#F5F7FA] p-[20px] rounded-[10px]'>
                         <img src={img} alt="" />
                         <p style={{ fontFamily: "Montserrat-Regular", fontSize: "12.23px" }}>Кроссовки <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "12.23px" }}>Nike</span></p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "10.35px" }} className='text-[#5E5F62] mt-[5px]'>Атрибут: <span style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px" }}>M</span> <span>Размер</span></p>
                         <p style={{ fontFamily: "Gilroy-ExtraBold", fontSize: "10.35px", color: "#5E5F62" }} className='flex justify-between my-[5px]'>Цена: <span>2045с</span></p>
                         <button style={{ fontFamily: "Montserrat-SemiBold", fontSize: "10.35px" }} className='bg-[#005456] text-white w-full p-[10px] rounded-[4.7px] '>В корзину</button>
                     </div>
@@ -122,7 +122,7 @@ const New_order = () => {
             <div className='bg-white my-[20px] p-[10px] rounded-[10px]'>
                 <div className='flex justify-between items-center'>
                     <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "14" }}>Корзина</p>
-                    <button style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>Очистить</button>
+                    <button style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>Очистить</button>
                 </div>
                 <hr className='mt-[20px] text-gray-500' />
                 <div className='flex py-[20px]'>
@@ -160,7 +160,7 @@ const New_order = () => {
 
                     <div className="flex items-center gap-[5px]">
                         <button
-                            style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }}
+                            style={{ fontFamily: "Gilroy-g", fontSize: "12px" }}
                             className='bg-[#F5F7FA] px-[12px] py-[6px] rounded-[5px]'
                         >
                             Добавить клиента
@@ -222,7 +222,7 @@ const New_order = () => {
                         defaultValue="Указать количество баллов"
                         fullWidth
                         sx={{
-                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Gilroy-Ligght", fontSize: "13px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Gilroy-Light", fontSize: "13px" },
                             "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
                             "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                         }}
@@ -237,7 +237,7 @@ const New_order = () => {
                 <p style={{ fontFamily: "Montserrat-Regular", fontSize: "15px" }} className='flex justify-between items-center'>К начислению баллов <span style={{ fontFamily: "Montserrat-SemiBold", fontSize: "15px" }}>100,05 сомони</span></p>
                 <div className='flex justify-between items-center my-[10px]'>
                     <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "14" }}>Товар в рассрочку</p>
-                    <button style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>тоггле тут</button>
+                    <button style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='bg-[#F5F7FA] p-[10px] rounded-[5px]'>тоггле тут</button>
                 </div>
                 <div className='my-[20px]'>
                     <TextField
@@ -245,7 +245,7 @@ const New_order = () => {
                         defaultValue="100"
                         fullWidth
                         sx={{
-                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Gilroy-Ligght", fontSize: "13px" },
+                            "& .MuiOutlinedInput-root": { borderRadius: "5px", height: "40px", fontFamily: "Gilroy-Light", fontSize: "13px" },
                             "& .MuiInputLabel-root": { fontSize: "13px", zIndex: 0, },
                             "& .MuiSelect-select": { fontSize: "13px", padding: "8px" },
                         }}
@@ -261,7 +261,7 @@ const New_order = () => {
                                 borderRadius: "5px",
                                 height: "40px",
                                 fontSize: "13px",
-                                fontFamily: "Gilroy-Light",
+                                fontFamily: "Gilroy-g",
                             },
                             "& input::placeholder": {
                                 fontSize: "13px",

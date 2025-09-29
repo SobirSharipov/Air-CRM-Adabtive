@@ -31,7 +31,7 @@ const Layout = () => {
               </button>
             </div>
 
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='text-center'>Главная</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='text-center'>Главная</p>
 
           </Link>
 
@@ -43,7 +43,7 @@ const Layout = () => {
                 </svg>
               </button>
             </div>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='text-center'>Заказы</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='text-center'>Заказы</p>
           </Link>
 
           <Link to={'/New_order'}>
@@ -54,7 +54,7 @@ const Layout = () => {
                 </svg>
               </button>
             </div>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='text-center'>Новый заказ</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='text-center'>Новый заказ</p>
           </Link>
 
           <Link to={'/Patients'}>
@@ -65,7 +65,7 @@ const Layout = () => {
                 </svg>
               </button>
             </div>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='text-center'>Клиенты</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='text-center'>Клиенты</p>
           </Link>
 
           <Link to={'/Finance'}>
@@ -76,7 +76,7 @@ const Layout = () => {
                 </svg>
               </button>
             </div>
-            <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='text-center'>Финансы</p>
+            <p style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='text-center'>Финансы</p>
           </Link>
         </nav>
       </footer>

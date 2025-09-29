@@ -5,7 +5,7 @@ import Pagination from '@mui/material/Pagination';
 const Order = () => {
     return (
         <div>
-            <div className='flex justify-between items-center'>
+            <div className='flex  justify-between items-center'>
                 <div className='flex gap-4 items-center'>
                     <p style={{ fontFamily: "Montserrat-SemiBold" }} className='text-[#0D1B34] text-[26px]'>Все сделки</p>
                     <button className='bg-[#005456] text-white p-[5px] px-[10px] rounded-[5px] cursor-pointer'>
@@ -48,7 +48,7 @@ const Order = () => {
                 </div>
 
                 <table className='w-[100%] my-[20px] rounded'>
-                    <thead style={{ fontFamily: "Gilroy-Ligght", fontSize: "11px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
+                    <thead style={{ fontFamily: "Gilroy-Light", fontSize: "11px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
                         <tr className='text-left'>
                             <th className='py-[8px] px-[10px] rounded-l-[8px]'>Клиент</th>
                             <th className='px-[10px]'>Сумма</th>
@@ -57,14 +57,14 @@ const Order = () => {
                             <th className='px-[10px]  rounded-r-[8px]'>Действия</th>
                         </tr>
                     </thead>
-                    <tbody style={{ fontFamily: "Gilroy-Ligght", fontSize: "10px" }} className='text-[13px] font-medium'>
+                    <tbody style={{ fontFamily: "Gilroy-Light", fontSize: "10px" }} className='text-[13px] font-medium'>
                         <tr className='bg-white p-[20px]'> <td className='p-[5px]'></td></tr>
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[015px] rounded-l-[10px]'>Шабнам</td>
                             <td className='text-center whitespace-nowrap  text-[#0E9F6E]'>25000 c.</td>
                             <td className='text-center whitespace-nowrap  text-[#F05252]'>25000 c.</td>
                             <td className='px-[5px]'>
-                                <select style={{ fontFamily: "Gilroy-Ligght", fontSize: "10px" }} className='bg-[#3F83F8] text-white p-[6px] rounded-[5px]'>
+                                <select style={{ fontFamily: "Gilroy-Light", fontSize: "10px" }} className='bg-[#3F83F8] text-white p-[6px] rounded-[5px]'>
                                     <option value="На доставке">На доставке</option>
                                     <option value="Отменено">Отменено</option>
                                     <option value="Доставлено">Доставлено</option>
@@ -98,7 +98,7 @@ const Order = () => {
                             <td className='text-center text-[#0E9F6E]'>25000 c.</td>
                             <td className='text-center text-[#0E9F6E]'>0.00 c.</td>
                             <td className='px-[5px]'>
-                                <select style={{ fontFamily: "Gilroy-Ligght", fontSize: "10px" }} className='bg-[#F05252] text-white p-[6px] rounded-[5px]'>
+                                <select style={{ fontFamily: "Gilroy-Light", fontSize: "10px" }} className='bg-[#F05252] text-white p-[6px] rounded-[5px]'>
                                     <option value="Отменено">Отменено</option>
                                     <option value="На доставке">На доставке</option>
                                     <option value="Доставлено">Доставлено</option>
@@ -126,7 +126,7 @@ const Order = () => {
                             <td className='text-center text-[#0E9F6E]'>25000 c.</td>
                             <td className='text-center text-[#0E9F6E]'>0.00 c.</td>
                             <td className='px-[5px]'>
-                                <select style={{ fontFamily: "Gilroy-Ligght", fontSize: "10px" }} className='bg-[#0E9F6E] text-white p-[6px] rounded-[5px]'>
+                                <select style={{ fontFamily: "Gilroy-Light", fontSize: "10px" }} className='bg-[#0E9F6E] text-white p-[6px] rounded-[5px]'>
                                     <option value="Доставлено">Доставлено</option>
                                     <option value="Отменено">Отменено</option>
                                     <option value="На доставке">На доставке</option>

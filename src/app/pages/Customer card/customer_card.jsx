@@ -33,11 +33,11 @@ const Customer_card = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                             </svg>
                         </button>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
                     </div>
                     <div className='text-end'>
                         <p style={{ fontFamily: "Montserrat-Bold" }} className='text-[#0D1B34] text-[12px]'>Ден рождения</p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
                     </div>
                 </div>
                 <div className='flex justify-between gap-2 items-center bg-white p-[10px] rounded-[10px]'>
@@ -47,11 +47,11 @@ const Customer_card = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                             </svg>
                         </button>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
                     </div>
                     <div className='text-end'>
                         <p style={{ fontFamily: "Montserrat-Bold" }} className='text-[#0D1B34] text-[12px]'>Отсутствие</p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
                     </div>
                 </div>
                 <div className='flex justify-between gap-2 items-center bg-white p-[10px] rounded-[10px]'>
@@ -61,11 +61,11 @@ const Customer_card = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                             </svg>
                         </button>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
                     </div>
                     <div className='text-end'>
                         <p style={{ fontFamily: "Montserrat-Bold" }} className='text-[#0D1B34] text-[12px]'>Новые</p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
                     </div>
                 </div>
                 <div className='flex justify-between gap-2 items-center bg-white p-[10px] rounded-[10px]'>
@@ -75,11 +75,11 @@ const Customer_card = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                             </svg>
                         </button>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[10px]'>Авг.</p>
                     </div>
                     <div className='text-end'>
                         <p style={{ fontFamily: "Montserrat-Bold" }} className='text-[#0D1B34] text-[12px]'>Репродажи</p>
-                        <p style={{ fontFamily: "Gilroy-Ligght", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
+                        <p style={{ fontFamily: "Gilroy-Light", fontSize: "12px" }} className='text-gray-600 mt-[20px] text-end'>300 клиента</p>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,7 @@ const Customer_card = () => {
                 </div>
 
                 <table className='w-[100%] my-[20px] rounded'>
-                    <thead style={{ fontFamily: "Gilroy-Ligght", fontSize: "13px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
+                    <thead style={{ fontFamily: "Gilroy-Light", fontSize: "13px" }} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-[8px]'>
                         <tr className='text-left'>
                             <th className='py-[10px] px-[10px] rounded-l-[8px]'>№</th>
                             <th className='px-[5px]'>Дата</th>
@@ -329,7 +329,7 @@ const Customer_card = () => {
                             <th className='px-[5px]  rounded-r-[8px]'>Действия</th>
                         </tr>
                     </thead>
-                    <tbody style={{ fontFamily: "Gilroy-Ligght", fontSize: "13px" }} className='text-[13px] font-medium'>
+                    <tbody style={{ fontFamily: "Gilroy-Light", fontSize: "13px" }} className='text-[13px] font-medium'>
                         <tr className='bg-white p-[20px]'> <td className='p-[5px]'></td></tr>
                         <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
                             <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>131</td>
