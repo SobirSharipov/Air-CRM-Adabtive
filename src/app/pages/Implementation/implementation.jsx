@@ -107,7 +107,7 @@ const Implementation = () => {
             <tr className='text-left'>
               <th className='py-[10px] px-[5px] rounded-l-[8px]'>№</th>
               <th className='px-[5px]'>Товар</th>
-              <th className='px-[5px]'>Количество</th>
+              <th className=''>Количество</th>
               <th className='px-[5px]'>Атрибут</th>
               <th className='px-[5px]'>Итого</th>
               <th className='px-[5px]  rounded-r-[8px]'>Детали</th>
@@ -118,7 +118,7 @@ const Implementation = () => {
             <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
               <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>1</td>
               <td className='text-[#231F20] whitespace-nowrap'>Духи La Co</td>
-              <td className='px-[10px]  text-[#0E9F6E]'>10</td>
+              <td className='px-[10px] text-center'>10</td>
               <td className='px-[10px]'>M</td>
               <td className='px-[10px]'>2800</td>
 
@@ -134,7 +134,7 @@ const Implementation = () => {
             <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
               <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>1</td>
               <td className='text-[#231F20] whitespace-nowrap'>Духи La Co</td>
-              <td className='px-[10px]  text-[#0E9F6E]'>10</td>
+              <td className='px-[10px] text-center'>10</td>
               <td className='px-[10px]'>M</td>
               <td className='px-[10px]'>2800</td>
 
@@ -150,7 +150,7 @@ const Implementation = () => {
             <tr className='bg-[#F5F7FA] rounded-[10px] my-[20px]  overflow-hidden'>
               <td className='p-[10px] py-[15px] rounded-l-[10px] text-[#231F20]'>1</td>
               <td className='text-[#231F20] whitespace-nowrap'>Духи La Co</td>
-              <td className='px-[10px]  text-[#0E9F6E]'>10</td>
+              <td className='px-[10px] text-center'>10</td>
               <td className='px-[10px]'>M</td>
               <td className='px-[10px]'>2800</td>
 
